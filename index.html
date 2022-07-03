@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Background</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        min-height: 100vh;
+        background-image: url("https://source.unsplash.com/random");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      button {
+        background-color: lightpink;
+        color: #fff;
+        padding: 1rem;
+        font-family: inherit;
+        font-size: 1.2rem;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn">Change Me</button>
+    <script src="main.js"></script>
+  </body>
+</html>
